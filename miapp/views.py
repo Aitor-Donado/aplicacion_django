@@ -4,6 +4,7 @@ from datetime import date
 from .forms import UsuarioForm
 from .models import Material, Usuario, Prestamo
 
+
 def hello(request):
     return HttpResponse(b"Hello World")
 
