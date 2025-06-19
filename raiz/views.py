@@ -2,7 +2,10 @@ from django.shortcuts import render, redirect
 # Para crear usuario de la web
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.models import User
+
+# Para autenticar usuario
 from django.contrib.auth import authenticate, login, logout
+
 # Para proteger las vistas:
 from django.contrib.auth.decorators import login_required
 
